@@ -1,6 +1,4 @@
 import java.util.ArrayList;
-import java.util.InputMismatchException;
-import java.util.Scanner;
 
 /*
     holds array of minions
@@ -8,7 +6,7 @@ import java.util.Scanner;
  */
 public class Main {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         // instantiate minion list
         ArrayList<Minion> minionList = new ArrayList<>();
 
@@ -29,32 +27,27 @@ public class Main {
 
             // main logic
             switch (userInput) {
-                case 1:
-                    trackerInterface.displayMinions(minionList);
-                    break;
-                case 2:
+                case 1 -> trackerInterface.displayMinions(minionList);
+                case 2 -> {
                     Minion newMinion = trackerInterface.createMinion();
                     minionList.add(newMinion);
-                    break;
-                case 3:
+                }
+                case 3 -> {
                     trackerInterface.displayMinions(minionList);
                     int deleteMinionIndex = trackerInterface.deleteMinion(minionList.size());
                     minionList.remove(deleteMinionIndex);
-                    break;
-                case 4:
+                }
+                case 4 -> {
                     trackerInterface.displayMinions(minionList);
                     int evilDeedDoerIndex = trackerInterface.addEvilDeed(minionList.size());
                     minionList.get(evilDeedDoerIndex).performEvilDeed();
-                    break;
-                case 5:
-                    trackerInterface.debug(minionList);
-                    break;
-                case 6:
+                }
+                case 5 -> trackerInterface.debug(minionList);
+                case 6 -> {
                     trackerInterface.exit();
                     System.exit(0);
-
-                default:
-                    break;
+                }
+                default -> System.exit(0);
             }
         }
     }
