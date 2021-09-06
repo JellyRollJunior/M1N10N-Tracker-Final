@@ -1,6 +1,6 @@
 # M1N10N-Tracker-Final
 Functions: 
-    Manage a horde minions (name, height, evil deeds performed)
+    Manage a horde of m1n10ns (name, height, evil deeds performed)
     delete, display, add, increment evil deeds, debug, exit program
 
 Learned / Reviewed: 
@@ -23,3 +23,5 @@ Reflections:
     
     I'm starting to slowly fall in love with coding again :) 
     here's to many more projects in the future!
+    
+    NOTE: changed the name after realizing the professor still uses this assignment. Wouldn't want anyone to steal code :)
