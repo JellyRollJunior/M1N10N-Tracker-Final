@@ -24,4 +24,5 @@ Reflections:
     I'm starting to slowly fall in love with coding again :) 
     here's to many more projects in the future!
     
-    NOTE: changed the name after realizing the professor still uses this assignment. Wouldn't want anyone to steal code :)
+    NOTE: changed the name after realizing the professor still uses this assignment. 
+    Wouldn't want anyone to steal code :)
