@@ -11,6 +11,7 @@ Learned / Reviewed:
     Method refactoring
     Method Extraction
     DRY Principles
+    Enhanced switch statements!
     
 Reflections: 
     After not coding for a while, I'm happy to find out I still retained a bit of knowledge.
