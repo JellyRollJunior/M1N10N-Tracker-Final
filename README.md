@@ -1,4 +1,4 @@
-# Minion-Tracker-Final
+# M1N10N-Tracker-Final
 Functions: 
     Manage a horde minions (name, height, evil deeds performed)
     delete, display, add, increment evil deeds, debug, exit program
