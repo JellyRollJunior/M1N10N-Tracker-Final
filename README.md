@@ -1,6 +1,6 @@
 # Minion-Tracker-Final
-Function: 
-    Manage minions
+Functions: 
+    Manage a horde minions (name, height, evil deeds performed)
     delete, display, add, increment evil deeds, debug, exit program
 
 Learned / Reviewed: 
